@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    background-color: bisque;
+    color: darkslategray;
+    padding: 50px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.top-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color:tan;
+    width: 100%;
+    padding: 20px;
+}
+.top-bar h1 {
+    margin: 0px;
+}
+.top-bar-spacer {
+    height: 60px;
+}
+img {
+    transition-duration: 0.5s;
+}
+img:hover, img:focus {
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+}
